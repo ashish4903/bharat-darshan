@@ -1,0 +1,28 @@
+{
+  "$comment": "Hand-maintained facts. Every entry must cite an official source.",
+  "helplines": [
+    {
+      "number": "112",
+      "label": "All emergencies (police, fire, ambulance)",
+      "source": {
+        "name": "Emergency Response Support System, Government of India",
+        "url": "https://112.gov.in/"
+      }
+    },
+    {
+      "number": "1363",
+      "label": "Tourist helpline (24×7, multilingual); also 1800-11-1363",
+      "source": { "name": "Ministry of Tourism, Government of India", "url": "https://tourism.gov.in/" }
+    },
+    {
+      "number": "139",
+      "label": "Railway help and complaints (Rail Madad)",
+      "source": { "name": "Rail Madad, Indian Railways", "url": "https://railmadad.indianrailways.gov.in/" }
+    },
+    {
+      "number": "1033",
+      "label": "National highway emergencies",
+      "source": { "name": "National Highways Authority of India", "url": "https://nhai.gov.in/" }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "$comment": "Pilot states. Content comes from the listed open sources; nothing here is descriptive text. bbox = [minLat, minLon, maxLat, maxLon], a generous bounding box used only to sanity-check coordinates.",
+  "states": [
+    {
+      "id": "maharashtra",
+      "code": "MH",
+      "name": "Maharashtra",
+      "nativeLang": "mr",
+      "wikidata": "Q1191",
+      "wikivoyage": "Maharashtra",
+      "destinationSections": ["Cities", "Other destinations"],
+      "foodCategories": ["Maharashtrian cuisine"],
+      "foodNote": null,
+      "climateDestination": "Mumbai",
+      "bbox": [15.5, 72.5, 22.2, 81.0],
+      "accent": "#c2410c"
+    },
+    {
+      "id": "goa",
+      "code": "GA",
+      "name": "Goa",
+      "nativeLang": "kok",
+      "wikidata": "Q1171",
+      "wikivoyage": "Goa",
+      "destinationSections": ["Cities", "Other destinations"],
+      "foodCategories": ["Goan cuisine"],
+      "foodNote": null,
+      "climateDestination": "Panaji",
+      "bbox": [14.8, 73.6, 15.9, 74.4],
+      "accent": "#0f766e"
+    },
+    {
+      "id": "rajasthan",
+      "code": "RJ",
+      "name": "Rajasthan",
+      "nativeLang": "hi",
+      "wikidata": "Q1437",
+      "wikivoyage": "Rajasthan",
+      "destinationSections": ["Cities", "Other destinations"],
+      "foodCategories": ["Rajasthani cuisine"],
+      "foodNote": null,
+      "climateDestination": "Jaipur",
+      "bbox": [22.9, 69.3, 30.3, 78.4],
+      "accent": "#be185d"
+    },
+    {
+      "id": "kerala",
+      "code": "KL",
+      "name": "Kerala",
+      "nativeLang": "ml",
+      "wikidata": "Q1186",
+      "wikivoyage": "Kerala",
+      "destinationSections": ["Cities", "Other destinations"],
+      "foodCategories": ["Kerala cuisine"],
+      "foodNote": null,
+      "climateDestination": "Thiruvananthapuram",
+      "bbox": [8.1, 74.7, 12.9, 77.5],
+      "accent": "#15803d"
+    },
+    {
+      "id": "delhi",
+      "code": "DL",
+      "name": "Delhi",
+      "nativeLang": "hi",
+      "wikidata": "Q1353",
+      "wikivoyage": "Delhi",
+      "destinationSections": ["Districts"],
+      "foodCategories": ["Mughlai cuisine", "Punjabi cuisine"],
+      "foodNote": "Delhi has no Wikipedia cuisine category of its own; these dishes come from the Mughlai and Punjabi cuisines that are popular there.",
+      "climateDestination": "Delhi",
+      "bbox": [28.35, 76.8, 28.95, 77.4],
+      "accent": "#6d28d9"
+    }
+  ]
+}
