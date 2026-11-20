@@ -1,0 +1,27 @@
+# Dependencies and build output
+node_modules/
+dist/
+coverage/
+
+# Raw API caches from the data pipeline (rebuilt locally, never committed)
+data/raw/
+
+# Test output
+test-results/
+playwright-report/
+.lighthouseci/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor, OS and tool-local files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.log
