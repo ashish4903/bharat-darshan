@@ -1,0 +1,882 @@
+{
+ "generatedAt": "2026-11-20",
+ "tiles": [
+  {
+   "code": "LA",
+   "name": "Ladakh",
+   "type": "ut",
+   "col": 4,
+   "row": 0
+  },
+  {
+   "code": "JK",
+   "name": "Jammu and Kashmir",
+   "type": "ut",
+   "col": 3,
+   "row": 1
+  },
+  {
+   "code": "HP",
+   "name": "Himachal Pradesh",
+   "type": "state",
+   "col": 4,
+   "row": 1
+  },
+  {
+   "code": "PB",
+   "name": "Punjab",
+   "type": "state",
+   "col": 3,
+   "row": 2
+  },
+  {
+   "code": "CH",
+   "name": "Chandigarh",
+   "type": "ut",
+   "col": 4,
+   "row": 2
+  },
+  {
+   "code": "UK",
+   "name": "Uttarakhand",
+   "type": "state",
+   "col": 5,
+   "row": 2
+  },
+  {
+   "code": "SK",
+   "name": "Sikkim",
+   "type": "state",
+   "col": 7,
+   "row": 2
+  },
+  {
+   "code": "AR",
+   "name": "Arunachal Pradesh",
+   "type": "state",
+   "col": 9,
+   "row": 2
+  },
+  {
+   "code": "RJ",
+   "name": "Rajasthan",
+   "type": "state",
+   "col": 2,
+   "row": 3
+  },
+  {
+   "code": "HR",
+   "name": "Haryana",
+   "type": "state",
+   "col": 3,
+   "row": 3
+  },
+  {
+   "code": "DL",
+   "name": "Delhi",
+   "type": "ut",
+   "col": 4,
+   "row": 3
+  },
+  {
+   "code": "UP",
+   "name": "Uttar Pradesh",
+   "type": "state",
+   "col": 5,
+   "row": 3
+  },
+  {
+   "code": "BR",
+   "name": "Bihar",
+   "type": "state",
+   "col": 6,
+   "row": 3
+  },
+  {
+   "code": "WB",
+   "name": "West Bengal",
+   "type": "state",
+   "col": 7,
+   "row": 3
+  },
+  {
+   "code": "AS",
+   "name": "Assam",
+   "type": "state",
+   "col": 8,
+   "row": 3
+  },
+  {
+   "code": "NL",
+   "name": "Nagaland",
+   "type": "state",
+   "col": 9,
+   "row": 3
+  },
+  {
+   "code": "GJ",
+   "name": "Gujarat",
+   "type": "state",
+   "col": 1,
+   "row": 4
+  },
+  {
+   "code": "MP",
+   "name": "Madhya Pradesh",
+   "type": "state",
+   "col": 3,
+   "row": 4
+  },
+  {
+   "code": "CG",
+   "name": "Chhattisgarh",
+   "type": "state",
+   "col": 4,
+   "row": 4
+  },
+  {
+   "code": "JH",
+   "name": "Jharkhand",
+   "type": "state",
+   "col": 6,
+   "row": 4
+  },
+  {
+   "code": "ML",
+   "name": "Meghalaya",
+   "type": "state",
+   "col": 8,
+   "row": 4
+  },
+  {
+   "code": "MN",
+   "name": "Manipur",
+   "type": "state",
+   "col": 9,
+   "row": 4
+  },
+  {
+   "code": "DH",
+   "name": "Dadra and Nagar Haveli and Daman and Diu",
+   "type": "ut",
+   "col": 1,
+   "row": 5
+  },
+  {
+   "code": "MH",
+   "name": "Maharashtra",
+   "type": "state",
+   "col": 2,
+   "row": 5
+  },
+  {
+   "code": "TS",
+   "name": "Telangana",
+   "type": "state",
+   "col": 4,
+   "row": 5
+  },
+  {
+   "code": "OD",
+   "name": "Odisha",
+   "type": "state",
+   "col": 5,
+   "row": 5
+  },
+  {
+   "code": "TR",
+   "name": "Tripura",
+   "type": "state",
+   "col": 8,
+   "row": 5
+  },
+  {
+   "code": "MZ",
+   "name": "Mizoram",
+   "type": "state",
+   "col": 9,
+   "row": 5
+  },
+  {
+   "code": "GA",
+   "name": "Goa",
+   "type": "state",
+   "col": 2,
+   "row": 6
+  },
+  {
+   "code": "KA",
+   "name": "Karnataka",
+   "type": "state",
+   "col": 3,
+   "row": 6
+  },
+  {
+   "code": "AP",
+   "name": "Andhra Pradesh",
+   "type": "state",
+   "col": 4,
+   "row": 6
+  },
+  {
+   "code": "LD",
+   "name": "Lakshadweep",
+   "type": "ut",
+   "col": 1,
+   "row": 7
+  },
+  {
+   "code": "KL",
+   "name": "Kerala",
+   "type": "state",
+   "col": 3,
+   "row": 7
+  },
+  {
+   "code": "TN",
+   "name": "Tamil Nadu",
+   "type": "state",
+   "col": 4,
+   "row": 7
+  },
+  {
+   "code": "PY",
+   "name": "Puducherry",
+   "type": "ut",
+   "col": 5,
+   "row": 7
+  },
+  {
+   "code": "AN",
+   "name": "Andaman and Nicobar Islands",
+   "type": "ut",
+   "col": 7,
+   "row": 8
+  }
+ ],
+ "states": [
+  {
+   "id": "maharashtra",
+   "code": "MH",
+   "name": "Maharashtra",
+   "nativeName": "महाराष्ट्र",
+   "nativeLang": "mr",
+   "accent": "#c2410c",
+   "capital": "Mumbai",
+   "tagline": "Maharashtra (Marathi: महाराष्ट्र Mahārāshṭra) in Western India is the third-largest state of India by size and the second-largest by population.",
+   "hero": {
+    "file": "Ajanta (63).jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Ajanta_%2863%29.jpg",
+    "width": 1920,
+    "height": 1440,
+    "author": null,
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Ajanta_(63).jpg"
+   },
+   "counts": {
+    "destinations": 38,
+    "places": 414,
+    "food": 183,
+    "dishes": 24
+   },
+   "best": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    10,
+    11
+   ]
+  },
+  {
+   "id": "goa",
+   "code": "GA",
+   "name": "Goa",
+   "nativeName": "गोवा",
+   "nativeLang": "hi",
+   "accent": "#0f766e",
+   "capital": "Panaji",
+   "tagline": "Goa (Konkani: गोंय / Gõy, Marathi: गोवा Govā), a state on India's west coast, is a former Portuguese colony with a rich history.",
+   "hero": {
+    "file": "Goa Velha Basilica Bom Jesus.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Goa_Velha_Basilica_Bom_Jesus.jpg",
+    "width": 1920,
+    "height": 1440,
+    "author": "Nima Sareh from Bangalore, India",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Goa_Velha_Basilica_Bom_Jesus.jpg"
+   },
+   "counts": {
+    "destinations": 20,
+    "places": 89,
+    "food": 80,
+    "dishes": 24
+   },
+   "best": [
+    0,
+    1,
+    2,
+    3,
+    10,
+    11
+   ]
+  },
+  {
+   "id": "rajasthan",
+   "code": "RJ",
+   "name": "Rajasthan",
+   "nativeName": "राजस्थान",
+   "nativeLang": "hi",
+   "accent": "#be185d",
+   "capital": "Jaipur",
+   "tagline": "Rajasthan (Hindi and Rajasthani: राजस्थान Rājasthān) is a state in the northwest of India.",
+   "hero": {
+    "file": "East facade Hawa Mahal Jaipur from ground level (July 2022) - img 01.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg/1920px-East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg",
+    "width": 1920,
+    "height": 1440,
+    "author": "Chainwit",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:East_facade_Hawa_Mahal_Jaipur_from_ground_level_(July_2022)_-_img_01.jpg"
+   },
+   "counts": {
+    "destinations": 37,
+    "places": 344,
+    "food": 123,
+    "dishes": 24
+   },
+   "best": [
+    0,
+    1,
+    2,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "id": "kerala",
+   "code": "KL",
+   "name": "Kerala",
+   "nativeName": "കേരളം",
+   "nativeLang": "ml",
+   "accent": "#15803d",
+   "capital": "Thiruvananthapuram",
+   "tagline": "Kerala, officially Keralam (Malayalam: കേരളം Kēraḷaṁ, keh-ruh-lluhm), is known as a tropical paradise of waving palms and wide, sandy beaches.",
+   "hero": {
+    "file": "Periyar National Park 01.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Periyar_National_Park_01.jpg/1920px-Periyar_National_Park_01.jpg",
+    "width": 1920,
+    "height": 1339,
+    "author": "Bernard Gagnon",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Periyar_National_Park_01.jpg"
+   },
+   "counts": {
+    "destinations": 44,
+    "places": 667,
+    "food": 473,
+    "dishes": 24
+   },
+   "best": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "delhi",
+   "code": "DL",
+   "name": "Delhi",
+   "nativeName": "दिल्ली",
+   "nativeLang": "hi",
+   "accent": "#6d28d9",
+   "capital": null,
+   "tagline": "Delhi (Hindi: दिल्ली Dillī, Urdu: دہلی Dihlī, Punjabi: ਦਿੱਲੀ Dillī), the largest city in northern India, is the country's thriving melting pot.",
+   "hero": {
+    "file": "Red Fort, Delhi by alexfurr.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/Red_Fort%2C_Delhi_by_alexfurr.jpg",
+    "width": 1920,
+    "height": 1270,
+    "author": "Alex Furr",
+    "license": "Attribution",
+    "licenseUrl": null,
+    "page": "https://commons.wikimedia.org/wiki/File:Red_Fort,_Delhi_by_alexfurr.jpg"
+   },
+   "counts": {
+    "destinations": 7,
+    "places": 278,
+    "food": 31,
+    "dishes": 24
+   },
+   "best": [
+    0,
+    1,
+    2,
+    9,
+    10,
+    11
+   ]
+  }
+ ],
+ "featured": {
+  "places": [
+   {
+    "id": "ajanta-caves-07469",
+    "name": "Ajanta Caves",
+    "category": "religious",
+    "description": "The Ajanta Caves are 30 rock-cut Buddhist cave monuments dating from the second century BCE to about 480 CE in Aurangabad district of Maharashtra state in India. Ajanta Caves are a UNESCO World Heritage Site. Universally regarded as masterpieces of Buddhist religious art, the caves include paintings and rock-cut sculptures, described as among the finest surviving examples of ancient Indian art, particularly expressive paintings that present emotions through gesture, pose and form.",
+    "image": {
+     "file": "Ajanta (63).jpg",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Ajanta_%2863%29.jpg",
+     "width": 1920,
+     "height": 1440,
+     "author": null,
+     "license": "CC BY 2.5",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+     "page": "https://commons.wikimedia.org/wiki/File:Ajanta_(63).jpg"
+    },
+    "state": "maharashtra",
+    "where": null
+   },
+   {
+    "id": "ellora-caves-20b10",
+    "name": "Ellora Caves",
+    "category": "heritage",
+    "description": "The Ellora Caves are a UNESCO World Heritage Site in Aurangabad, India. It is one of the largest rock-cut cave complexes in the world, with artwork dating from AD 600–1000, including Hindu, Buddhist, and Jain caves. The complex is a leading example of Indian rock-cut architecture, and several are not strictly \"caves\" in that they have no roof.",
+    "image": {
+     "file": "Ellora Caves, India, Kailasanatha Temple 2.jpg",
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Ellora_Caves%2C_India%2C_Kailasanatha_Temple_2.jpg/1920px-Ellora_Caves%2C_India%2C_Kailasanatha_Temple_2.jpg",
+     "width": 1920,
+     "height": 1280,
+     "author": "Vyacheslav Argenberg",
+     "license": "CC BY 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Ellora_Caves,_India,_Kailasanatha_Temple_2.jpg"
+    },
+    "state": "maharashtra",
+    "where": "Khuldabad"
+   },
+   {
+    "id": "dudhsagar-falls-fdae9",
+    "name": "Dudhsagar Falls",
+    "category": "nature",
+    "description": "Dudhsagar Falls (lit. 'Sea of Milk') is a four-tiered waterfall on the Mahadayi River in the Indian state of Goa. It is 60km from Panaji by road and is located on the Belagavi–Vasco Da Gama rail route about 46km east of Madgaon and 80km south of Belagavi. Dudhsagar Falls is perched at the top of a crescent shaped valley and surrounded by pristine forests, and it is amongst India's tallest waterfalls with a height of 310 m (1017 feet) and an average width of 30 metres (100 feet).",
+    "image": {
+     "file": "Doodhsagar Fall.jpg",
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Doodhsagar_Fall.jpg/1920px-Doodhsagar_Fall.jpg",
+     "width": 1920,
+     "height": 2880,
+     "author": "Hsp wiki",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Doodhsagar_Fall.jpg"
+    },
+    "state": "goa",
+    "where": null
+   },
+   {
+    "id": "basilica-of-bom-jesus-7b44e",
+    "name": "Basilica of Bom Jesus",
+    "category": "religious",
+    "description": "Home to the grave of St. Francis Xavier.",
+    "image": {
+     "file": "Goa Velha Basilica Bom Jesus.jpg",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Goa_Velha_Basilica_Bom_Jesus.jpg",
+     "width": 1920,
+     "height": 1440,
+     "author": "Nima Sareh from Bangalore, India",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Goa_Velha_Basilica_Bom_Jesus.jpg"
+    },
+    "state": "goa",
+    "where": "Old Goa"
+   },
+   {
+    "id": "hawa-mahal-e2700",
+    "name": "Hawa Mahal",
+    "category": "heritage",
+    "description": "Built in 1799 by Maharaja Sawai Singh as part of City Palace, it was an extension of the Zenana (women's) chamber. Its purpose was to allow royal ladies to observe everyday life in the street below without being seen. It is a five storey high red sandstone structure complete with over 950 windows. The breeze (or hawa in Hindi) circulates through these windows, giving the palace its name. The iconic facade is best seen from the street, which is free.",
+    "image": {
+     "file": "East facade Hawa Mahal Jaipur from ground level (July 2022) - img 01.jpg",
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg/1920px-East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg",
+     "width": 1920,
+     "height": 1440,
+     "author": "Chainwit",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:East_facade_Hawa_Mahal_Jaipur_from_ground_level_(July_2022)_-_img_01.jpg"
+    },
+    "state": "rajasthan",
+    "where": "Jaipur"
+   },
+   {
+    "id": "keoladeo-bird-sanctuary-ac998",
+    "name": "Keoladeo Bird Sanctuary",
+    "category": "wildlife",
+    "description": "It is also known as Ghana, is a world famous sanctuary developed by Maharaja of Bharatpur. It is also one of the few Natural UNESCO World Heritage Sites in India. The best time to see the park is in October to February when there is a lot of migratory birds, otherwise it can be relatively bird free. The best times for bird spotting are early evening and morning. Admission is ₹200, an optional driver is ₹100 per hr, and an optional guide is ₹150 per hr. Another way to see the park is to hire a bike at your hotel or entrance (approx ₹40/day).",
+    "image": {
+     "file": "Keoladeo Ghana National Park, Bharatpur, Rajasthan, India.jpg",
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Keoladeo_Ghana_National_Park%2C_Bharatpur%2C_Rajasthan%2C_India.jpg/1920px-Keoladeo_Ghana_National_Park%2C_Bharatpur%2C_Rajasthan%2C_India.jpg",
+     "width": 1920,
+     "height": 1437,
+     "author": "Nikhilchandra81",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Keoladeo_Ghana_National_Park,_Bharatpur,_Rajasthan,_India.jpg"
+    },
+    "state": "rajasthan",
+    "where": "Bharatpur"
+   },
+   {
+    "id": "sabarimala-temple-complex-ab8e5",
+    "name": "Sabarimala temple complex",
+    "category": "religious",
+    "description": "The Sabarimala Sree Dharma Sastha Temple is a Hindu temple dedicated to Lord Sree Dharma Sastha where the deity is worshipped as Lord Ayyappan, an eternal brahmachari, the son of the deities Shiva and Mohini (female avatar of the god Vishnu), and is situated atop the Sabarimala hill in Pathanamthitta district of Kerala, India. The temple is surrounded by 18 hills in the Periyar Tiger Reserve. It is one of the largest annual pilgrimage sites in the world, with an estimate of over 10 to 15 million devotees visiting every year.",
+    "image": {
+     "file": "18 steps at sabarimala.jpg",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/18_steps_at_sabarimala.jpg",
+     "width": 1920,
+     "height": 2523,
+     "author": "Sailesh",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:18_steps_at_sabarimala.jpg"
+    },
+    "state": "kerala",
+    "where": "Sabarimala"
+   },
+   {
+    "id": "padmanabhaswamy-temple-1e553",
+    "name": "Padmanabhaswamy Temple",
+    "category": "religious",
+    "description": "The icon of the city: the world's richest temple. The temple came to prominence after the details of the temple's massive wealth were released by an order from the Supreme Court of India. The temple itself has thousands of stories to tell with immaculate sculptures and mandaps. The entire Thiruvananthapuram was built around this temple. It was nominated into the last round of 7 Wonders of World. The building style is a mixture of Kerala and Tamil architecture. It has many structures inside, like musical pillars, golden mandap, 500 pillared corridor famous for its sculptures and large collection of temple mural paintings. The temple has a large clear pond called Padmatheertham, which is also landmark. The deity is Maha Vishnu in a rare reclining posture, called as \"ananthasayanam\" or the lord's sleep. The temple has a huge role in history of Kerala, with the presiding deity even being crowned as Emperor of Travancore in 18th century and all the rulers ruling the state in the name of the deity. The royal crown of Travancore, is preserved inside the temple, though only lucky ones can see it. The temple does not use any lighting generated by an electrical source and has no light bulbs or tube-lights. The only lighting is either natural or from oil lamps, which is quite minimal. The use of electronic items, including mobile phones and cameras, is prohibited inside the temple. This temple is open only for Hindus, and even the Hindus admitted inside have to follow rigorous dress code and customs. Dress code for men is just Kerala Mundu (White Dhoti) with the body uncovered waist-up. Dhotis are available for one-time rental or for sale from nearby shops. Women are required to wear an Indian Sari or Kerala Mundu (The idea is that your legs must not be visible separately). Entrants would also be asked to store their bags, umbrellas, etc., at a nearby counter. This temple belongs to the Travancore Royal Family and is guarded by the Palace Guards of Travancore. Beware of presence of large number of professional touts at the entrance of temple, who attempt to forcibly sell puja plates with flowers, incense, oil lamps to first timers and tourists. Likewise at exit gates, touts try to hard sell pictures, lamps, and shells by claiming it is holy and sacred. Do not be carried away by claims and politely avoid them. Inside the main arena of the temple, you can view the deity in 3 stages: Hand, Navel (with the Lotus carrying Brahma) and Feet.",
+    "image": {
+     "file": "Thiruvanthapuram Temple.JPG",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Thiruvanthapuram_Temple.JPG",
+     "width": 1920,
+     "height": 1808,
+     "author": "P.K.Niyogi",
+     "license": "Public domain",
+     "licenseUrl": null,
+     "page": "https://commons.wikimedia.org/wiki/File:Thiruvanthapuram_Temple.JPG"
+    },
+    "state": "kerala",
+    "where": "Thiruvananthapuram"
+   },
+   {
+    "id": "red-fort-5e244",
+    "name": "Red Fort",
+    "category": "heritage",
+    "description": "One of Delhi's top tourist sights and listed as a. A brilliant red sandstone fort was built by the Mughal Emperor Shah Jahan (who also built the Taj Mahal) as his ruling palace. Completed in 1648, the years since have not treated the buildings kindly: the rooms have long since been stripped of all objects, the marble inlays are long gone and quite a few buildings are off-limits. Still, the scale remains imposing and the gardens are kept lush and green even in midwinter.",
+    "image": {
+     "file": "Red Fort, Delhi by alexfurr.jpg",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/Red_Fort%2C_Delhi_by_alexfurr.jpg",
+     "width": 1920,
+     "height": 1270,
+     "author": "Alex Furr",
+     "license": "Attribution",
+     "licenseUrl": null,
+     "page": "https://commons.wikimedia.org/wiki/File:Red_Fort,_Delhi_by_alexfurr.jpg"
+    },
+    "state": "delhi",
+    "where": "Old Delhi"
+   },
+   {
+    "id": "qutb-minar-f4bbd",
+    "name": "Qutb Minar",
+    "category": "heritage",
+    "description": "The most famous structure on the grounds is the Minar itself. At 73m tall, it is the second tallest minar in India (after Fateh Burj in Mohali), and was the tallest \"skyscraper\" in the world when built (1193-1368). It is often visible from the air when flying into IGI airport. It was constructed on the orders of Qutb-ud-din Aybak, founder of the Slave Dynasty, and named after him. Delicately carved and inscribed with Arabic inscriptions, its red sandstone and marble have been astonishingly well-preserved, and it is still an awe-inspiring sight today. The top of the tower has twice been rebuilt after an earthquake, and the base has been restored more recently. While entry into the tower itself is no longer permitted, for ₹10 per 5 min you can view the scenery via a little webcam on top.",
+    "image": {
+     "file": "Madrasa and tomb of Alauddin Khalji 2.jpg",
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Madrasa_and_tomb_of_Alauddin_Khalji_2.jpg/1920px-Madrasa_and_tomb_of_Alauddin_Khalji_2.jpg",
+     "width": 1920,
+     "height": 2560,
+     "author": "Akbarzoda",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Madrasa_and_tomb_of_Alauddin_Khalji_2.jpg"
+    },
+    "state": "delhi",
+    "where": "South"
+   }
+  ],
+  "dishes": [
+   {
+    "id": "vada-pav-181b2",
+    "name": "Vada pav",
+    "description": "Vada pav, alternatively spelt wada pao, is a vegetarian fast food dish native to the Indian state of Maharashtra. The dish consists of a deep-fried potato dumpling placed inside a bread bun (pav) sliced almost in half through the middle. It is generally accompanied by one or more chutneys and a green chili pepper.",
+    "wikidata": "Q2985347",
+    "views": 15035,
+    "image": {
+     "file": "Vada Pav-Indian street food.JPG",
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Vada_Pav-Indian_street_food.JPG/1920px-Vada_Pav-Indian_street_food.JPG",
+     "width": 1920,
+     "height": 1280,
+     "author": "Rutvi Mistry",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Vada_Pav-Indian_street_food.JPG"
+    },
+    "source": {
+     "name": "Wikipedia",
+     "title": "Vada pav",
+     "url": "https://en.wikipedia.org/wiki/Vada_pav",
+     "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+     }
+    },
+    "state": "maharashtra"
+   },
+   {
+    "id": "pav-bhaji-47f4e",
+    "name": "Pav bhaji",
+    "description": "Pav bhaji, or pao bhaji (Marathi: पाव भाजी pāʋ bhājī) is a staple food of Maharashtra, consisting of a thick spicy vegetable curry (bhaji) served with a soft, buttered bread roll (pav). It is typically served either as a street snack or main dish, and originates from Maharashtra.",
+    "wikidata": "Q3629971",
+    "views": 10648,
+    "image": {
+     "file": "Bambayya Pav bhaji.jpg",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Bambayya_Pav_bhaji.jpg",
+     "width": 1920,
+     "height": 1193,
+     "author": "Rupali Banarase",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Bambayya_Pav_bhaji.jpg"
+    },
+    "source": {
+     "name": "Wikipedia",
+     "title": "Pav bhaji",
+     "url": "https://en.wikipedia.org/wiki/Pav_bhaji",
+     "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+     }
+    },
+    "state": "maharashtra"
+   },
+   {
+    "id": "vindaloo-d6a7a",
+    "name": "Vindaloo",
+    "description": "Vindaloo is a curry dish known globally in its British form as a staple of curry houses and Indian restaurants, specifically a fiery, spicy dish that can be made with a choice of meats. Vindaloo's name derives from the famous Portuguese Goan dish carne de vinha d'alhos (meat with garlic vinegar) or vindalho, made with pork. From the 19th century onwards, the Portuguese-Indian dish was adapted within Anglo-Indian cuisine.",
+    "wikidata": "Q1339633",
+    "views": 21549,
+    "image": {
+     "file": "Beef Vindaloo - Chilli Mama, Chadstone (3014236693).jpg",
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Beef_Vindaloo_-_Chilli_Mama%2C_Chadstone_%283014236693%29.jpg/1920px-Beef_Vindaloo_-_Chilli_Mama%2C_Chadstone_%283014236693%29.jpg",
+     "width": 1920,
+     "height": 1440,
+     "author": "Alpha from Melbourne, Australia",
+     "license": "CC BY-SA 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Beef_Vindaloo_-_Chilli_Mama,_Chadstone_(3014236693).jpg"
+    },
+    "source": {
+     "name": "Wikipedia",
+     "title": "Vindaloo",
+     "url": "https://en.wikipedia.org/wiki/Vindaloo",
+     "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+     }
+    },
+    "state": "goa"
+   },
+   {
+    "id": "bebinca-ca780",
+    "name": "Bebinca",
+    "description": "Bebinca or bebinka, (Konkani; bibik) is a layer cake of Indo-Portuguese cuisine in former Estado da Índia Portuguesa, Goa. It’s also referred as Queen of Goan Desserts. In traditional baking, a bebinca has between 7 and 16 layers, but bakeries can modify the cake recipe as per convenience and taste.",
+    "wikidata": "Q3270102",
+    "views": 7199,
+    "image": {
+     "file": "Bebinca com gelado.jpg",
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Bebinca_com_gelado.jpg/1920px-Bebinca_com_gelado.jpg",
+     "width": 1920,
+     "height": 1440,
+     "author": "Warren Noronha",
+     "license": "CC BY 2.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Bebinca_com_gelado.jpg"
+    },
+    "source": {
+     "name": "Wikipedia",
+     "title": "Bebinca",
+     "url": "https://en.wikipedia.org/wiki/Bebinca",
+     "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+     }
+    },
+    "state": "goa"
+   },
+   {
+    "id": "kachori-66c1a",
+    "name": "Kachori",
+    "description": "Kachori, kachodi, katchuri, kachuri or kachauri is a deep-fried, spicy, stuffed pastry or bread originating from the Marwar region of Rajasthan, India. It is made of maida filled with a baked mixture of moong dal or onions (usually, depending on the variation), besan, coriander, red chili powder, salt, and other Indian spices and deep-fried in vegetable oil until crispy golden brown. It is served with potato curry and sometimes with sweet and spicy tamarind chutney or occasionally with mint and green chilli chutney.",
+    "wikidata": "Q2726464",
+    "views": 10871,
+    "image": {
+     "file": "Rajasthani Raj Kachori.jpg",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Rajasthani_Raj_Kachori.jpg",
+     "width": 1920,
+     "height": 1652,
+     "author": "Jaipuriamanasi",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Rajasthani_Raj_Kachori.jpg"
+    },
+    "source": {
+     "name": "Wikipedia",
+     "title": "Kachori",
+     "url": "https://en.wikipedia.org/wiki/Kachori",
+     "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+     }
+    },
+    "state": "rajasthan"
+   },
+   {
+    "id": "laal-maas-18956",
+    "name": "Laal maas",
+    "description": "Laal maas (lit. \"red meat\") is a meat curry from Rajasthan, India. It was traditionally prepared by Rajput royalty during hunts.",
+    "wikidata": "Q6466556",
+    "views": 4973,
+    "image": {
+     "file": "Laal-Maans.jpg",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/9/97/Laal-Maans.jpg",
+     "width": 1920,
+     "height": 2458,
+     "author": "Hamzaghanchi",
+     "license": "CC BY-SA 3.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Laal-Maans.jpg"
+    },
+    "source": {
+     "name": "Wikipedia",
+     "title": "Laal maas",
+     "url": "https://en.wikipedia.org/wiki/Laal_maas",
+     "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+     }
+    },
+    "state": "rajasthan"
+   },
+   {
+    "id": "appam-6d06a",
+    "name": "Appam",
+    "description": "An appam or aappam is a type of thin pancake in South Indian cuisine. It is made with fermented rice batter and coconut milk, traditionally cooked in an appachatti, a deep pan similar in shape to a wok. It is a popular dish in the Indian state of Kerala as well as Sri Lanka.",
+    "wikidata": "Q2548021",
+    "views": 10152,
+    "image": {
+     "file": "Appam - அப்பம்.jpg",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Appam_-_%E0%AE%85%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%AE%E0%AF%8D.jpg",
+     "width": 1920,
+     "height": 1920,
+     "author": "VinPrasad",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Appam_-_%E0%AE%85%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%AE%E0%AF%8D.jpg"
+    },
+    "source": {
+     "name": "Wikipedia",
+     "title": "Appam",
+     "url": "https://en.wikipedia.org/wiki/Appam",
+     "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+     }
+    },
+    "state": "kerala"
+   },
+   {
+    "id": "upma-04965",
+    "name": "Upma",
+    "description": "Upma, uppumavu, uppindi, kharabath, upit, upeet, rulanv, uppuma, or uppittu is a dish of thick porridge from dry-roasted semolina or coarse rice flour. Upma originated from Southern India, and is most common in Andhra Pradesh, Karnataka, Kerala, Maharashtra, Odisha, Tamil Nadu and Telangana. Various seasonings and vegetables may be added during cooking.",
+    "wikidata": "Q2721584",
+    "views": 8521,
+    "image": {
+     "file": "A photo of Upma.jpg",
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/A_photo_of_Upma.jpg/1920px-A_photo_of_Upma.jpg",
+     "width": 1920,
+     "height": 1080,
+     "author": "Thamizhpparithi Maari",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:A_photo_of_Upma.jpg"
+    },
+    "source": {
+     "name": "Wikipedia",
+     "title": "Upma",
+     "url": "https://en.wikipedia.org/wiki/Upma",
+     "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+     }
+    },
+    "state": "kerala"
+   },
+   {
+    "id": "korma-680fd",
+    "name": "Korma",
+    "description": "Korma, kurma, qorma or qurma is a curry dish originating in the Indian subcontinent influenced by Mughlai cuisine, versions of which later were modified to Anglo-Indian and then to British tastes. It consists of meat or vegetables braised with yogurt, water or stock, and spices to produce a thick sauce or gravy. The flavours of kormas are less intense than those of other Indian meat-containing dishes, and the fragrances more aromatic.",
+    "wikidata": "Q1979684",
+    "views": 24110,
+    "image": {
+     "file": "Chicken Korma.JPG",
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Chicken_Korma.JPG/1920px-Chicken_Korma.JPG",
+     "width": 1920,
+     "height": 1440,
+     "author": "Miansari66",
+     "license": "CC0",
+     "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "page": "https://commons.wikimedia.org/wiki/File:Chicken_Korma.JPG"
+    },
+    "source": {
+     "name": "Wikipedia",
+     "title": "Korma",
+     "url": "https://en.wikipedia.org/wiki/Korma",
+     "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+     }
+    },
+    "state": "delhi"
+   },
+   {
+    "id": "palak-paneer-8f9d9",
+    "name": "Palak paneer",
+    "description": "Palak paneer or palak chhena is a dish from the Indian subcontinent consisting of chhena or paneer in a thick paste made from puréed spinach, called palak in Hindi, Marathi, Gujarati, Punjabi and other Indian languages.\nThe terms palak chhena and saag chhena are sometimes used interchangeably in restaurants in the Anglosphere. However, saag chhena is different from traditional palak chhena in that it contains other green leafy vegetables, such as mustard greens, whereas palak paneer only contains spinach.",
+    "wikidata": "Q5687757",
+    "views": 12681,
+    "image": {
+     "file": "Palakpaneer Rayagada Odisha 0009.jpg",
+     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Palakpaneer_Rayagada_Odisha_0009.jpg/1920px-Palakpaneer_Rayagada_Odisha_0009.jpg",
+     "width": 1920,
+     "height": 1658,
+     "author": "Lopanayak",
+     "license": "CC BY-SA 4.0",
+     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "page": "https://commons.wikimedia.org/wiki/File:Palakpaneer_Rayagada_Odisha_0009.jpg"
+    },
+    "source": {
+     "name": "Wikipedia",
+     "title": "Palak paneer",
+     "url": "https://en.wikipedia.org/wiki/Palak_paneer",
+     "license": {
+      "name": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+     }
+    },
+    "state": "delhi"
+   }
+  ]
+ }
+}
