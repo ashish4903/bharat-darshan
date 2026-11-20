@@ -24,3 +24,6 @@ if (!window.matchMedia) {
   });
 }
 window.scrollTo = () => {};
+
+// jsdom has no canvas; MapView then shows its no-WebGL fallback.
+HTMLCanvasElement.prototype.getContext = () => null;

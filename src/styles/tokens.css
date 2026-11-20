@@ -1,0 +1,114 @@
+/* ==========================================================================
+   Design tokens — warm, textile-inspired palette; light and dark themes
+   ========================================================================== */
+:root {
+  color-scheme: light;
+
+  /* Brand */
+  --saffron: #e8622c;
+  --saffron-strong: #b9461a;
+  --saffron-soft: #fde7da;
+  --indigo: #23214f;
+  --teal: #0f766e;
+  --teal-soft: #d8f0ec;
+  --marigold: #f2a516;
+  --marigold-soft: #fdf0cf;
+
+  /* Surfaces and text */
+  --bg: #fbf6ef;
+  --bg-tint: #f6eee2;
+  --surface: #ffffff;
+  --surface-2: #fdfaf5;
+  --surface-3: #f3ebdf;
+  --border: #eadfce;
+  --border-strong: #d9c9b3;
+  --text: #1f1d3d;
+  --text-2: #4a4766;
+  --text-3: #6e6a86;
+  --link: #a8401a;
+  --focus: #e8622c;
+  --on-accent: #ffffff;
+  --overlay: rgb(20 18 45 / 55%);
+
+  /* Accent (overridden per state) */
+  --accent: var(--saffron);
+
+  /* Shape and depth */
+  --radius-xs: 8px;
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 22px;
+  --radius-xl: 30px;
+  --shadow-1: 0 1px 2px rgb(35 33 79 / 6%), 0 2px 6px rgb(35 33 79 / 5%);
+  --shadow-2: 0 10px 30px -8px rgb(35 33 79 / 18%), 0 2px 6px rgb(35 33 79 / 6%);
+  --shadow-3: 0 24px 60px -18px rgb(35 33 79 / 35%);
+
+  /* Type */
+  --font-display: "Bricolage Grotesque Variable", "Inter Variable", system-ui, sans-serif;
+  --font-body: "Inter Variable", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-local: "Noto Sans Devanagari", "Noto Sans Malayalam", "Nirmala UI", sans-serif;
+
+  /* Layout */
+  --max: 1240px;
+  --gutter: clamp(16px, 4vw, 40px);
+  --header-h: 68px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --saffron: #f2803f;
+    --saffron-strong: #ff9d63;
+    --saffron-soft: #3a2218;
+    --teal: #3cc2b1;
+    --teal-soft: #13302d;
+    --marigold: #f7b93c;
+    --marigold-soft: #372b10;
+    --bg: #12112a;
+    --bg-tint: #17163a;
+    --surface: #1b1a3a;
+    --surface-2: #201f44;
+    --surface-3: #29274f;
+    --border: #302e5a;
+    --border-strong: #423f70;
+    --text: #f4efe6;
+    --text-2: #cbc5d9;
+    --text-3: #a29cbb;
+    --link: #ffab7a;
+    --focus: #ffab7a;
+    --on-accent: #12112a;
+    --overlay: rgb(8 7 22 / 62%);
+    --shadow-1: 0 1px 2px rgb(0 0 0 / 30%);
+    --shadow-2: 0 12px 32px -10px rgb(0 0 0 / 60%);
+    --shadow-3: 0 28px 70px -20px rgb(0 0 0 / 70%);
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --saffron: #f2803f;
+  --saffron-strong: #ff9d63;
+  --saffron-soft: #3a2218;
+  --teal: #3cc2b1;
+  --teal-soft: #13302d;
+  --marigold: #f7b93c;
+  --marigold-soft: #372b10;
+  --bg: #12112a;
+  --bg-tint: #17163a;
+  --surface: #1b1a3a;
+  --surface-2: #201f44;
+  --surface-3: #29274f;
+  --border: #302e5a;
+  --border-strong: #423f70;
+  --text: #f4efe6;
+  --text-2: #cbc5d9;
+  --text-3: #a29cbb;
+  --link: #ffab7a;
+  --focus: #ffab7a;
+  --on-accent: #12112a;
+  --overlay: rgb(8 7 22 / 62%);
+  --shadow-1: 0 1px 2px rgb(0 0 0 / 30%);
+  --shadow-2: 0 12px 32px -10px rgb(0 0 0 / 60%);
+  --shadow-3: 0 28px 70px -20px rgb(0 0 0 / 70%);
+}

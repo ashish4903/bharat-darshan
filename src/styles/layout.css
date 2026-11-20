@@ -1,0 +1,298 @@
+/* ==========================================================================
+   Layout: container, sections, header, footer, bottom navigation
+   ========================================================================== */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--max);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.section {
+  padding-block: clamp(48px, 7vw, 88px);
+}
+
+.section-tight {
+  padding-block: 40px 8px;
+}
+
+.section-tint {
+  background:
+    radial-gradient(
+      60% 80% at 100% 0%,
+      color-mix(in oklab, var(--saffron) 10%, transparent),
+      transparent 70%
+    ),
+    var(--bg-tint);
+}
+
+.stack-md > * + * {
+  margin-top: 20px;
+}
+
+.stack-xl > * + * {
+  margin-top: clamp(40px, 6vw, 64px);
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.row-gap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.page-title {
+  font-size: clamp(30px, 4vw, 44px);
+  margin-bottom: 20px;
+}
+
+.subheading {
+  font-size: 22px;
+  margin-bottom: 14px;
+}
+
+/* Header ------------------------------------------------------------------ */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  height: var(--header-h);
+  background: color-mix(in oklab, var(--bg) 82%, transparent);
+  backdrop-filter: saturate(1.4) blur(14px);
+  -webkit-backdrop-filter: saturate(1.4) blur(14px);
+  border-bottom: 1px solid color-mix(in oklab, var(--border) 70%, transparent);
+}
+
+.site-header-inner {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  height: 100%;
+  max-width: var(--max);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.brand-link {
+  color: inherit;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-mark {
+  flex: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px -4px color-mix(in oklab, var(--saffron) 70%, transparent);
+}
+
+.logo-word {
+  font: 700 20px/1 var(--font-display);
+  letter-spacing: -0.02em;
+  color: var(--text);
+}
+
+.logo-word em {
+  font-style: normal;
+  color: var(--saffron-strong);
+}
+
+.header-nav {
+  display: flex;
+  gap: 4px;
+  margin-left: auto;
+}
+
+.header-link {
+  padding: 8px 14px;
+  border-radius: 999px;
+  color: var(--text-2);
+  font-weight: 550;
+  font-size: 15px;
+  text-decoration: none;
+  transition:
+    background 0.15s,
+    color 0.15s;
+}
+
+.header-link:hover {
+  background: var(--surface-3);
+  color: var(--text);
+}
+
+.header-link[aria-current="page"] {
+  background: var(--text);
+  color: var(--bg);
+}
+
+.header-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.header-search {
+  display: none;
+}
+
+/* Footer ------------------------------------------------------------------ */
+.site-footer {
+  margin-top: 40px;
+  background: var(--indigo);
+  color: #e6e1f2;
+}
+
+:root[data-theme="dark"] .site-footer {
+  background: #0c0b20;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .site-footer {
+    background: #0c0b20;
+  }
+}
+
+.site-footer-inner {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 28px 48px;
+  max-width: var(--max);
+  margin-inline: auto;
+  padding: 48px var(--gutter) 56px;
+}
+
+.site-footer .logo-word {
+  color: #fff;
+}
+
+.site-footer .logo-word em {
+  color: #ffb48a;
+}
+
+.footer-brand p {
+  margin-top: 14px;
+  max-width: 44ch;
+  color: #c9c2df;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.site-footer a {
+  color: #ffd2b8;
+}
+
+.footer-links a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-note {
+  grid-column: 1 / -1;
+  padding-top: 24px;
+  border-top: 1px solid rgb(255 255 255 / 12%);
+  font-size: 13px;
+  color: #b9b2d0;
+}
+
+/* Bottom navigation (phones) ---------------------------------------------- */
+.bottom-nav {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  :root {
+    --header-h: 60px;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .header-actions {
+    margin-left: auto;
+  }
+
+  .header-search {
+    display: grid;
+  }
+
+  .logo-word {
+    font-size: 18px;
+  }
+
+  .site-footer {
+    padding-bottom: calc(68px + env(safe-area-inset-bottom));
+  }
+
+  .site-footer-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .bottom-nav {
+    position: fixed;
+    inset: auto 0 0;
+    z-index: 60;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: env(safe-area-inset-bottom);
+    background: color-mix(in oklab, var(--surface) 92%, transparent);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-top: 1px solid var(--border);
+  }
+
+  .bottom-nav a {
+    display: grid;
+    place-items: center;
+    gap: 2px;
+    padding: 9px 4px 8px;
+    color: var(--text-3);
+    font-size: 11.5px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .bottom-nav a[aria-current="page"] {
+    color: var(--saffron-strong);
+  }
+
+  .bottom-nav a[aria-current="page"] svg {
+    padding: 2px 12px;
+    box-sizing: content-box;
+    border-radius: 999px;
+    background: var(--saffron-soft);
+  }
+
+  .two-col {
+    grid-template-columns: 1fr;
+  }
+}
