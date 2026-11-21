@@ -1,0 +1,26 @@
+name: Content issue
+description: A place, dish or fact is missing or wrong
+labels: [content]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Content comes from open sources (Wikivoyage, Wikipedia, Wikidata, Wikimedia Commons, OpenStreetMap).
+        The fastest fix is usually to correct the source; it then appears here at the next data refresh.
+  - type: input
+    id: link
+    attributes:
+      label: Page link
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is missing or wrong?
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Supporting source (optional)
+      description: A link to an open or official source for the correction.

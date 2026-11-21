@@ -1,0 +1,15 @@
+# Data licenses
+
+The site's **code** is released under the [MIT License](LICENSE). The **content** in `src/data/` is generated from open sources and keeps their licenses:
+
+| Source                                                                                             | Content                                                                                               | License                                                                                     |
+| -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| [Wikivoyage](https://en.wikivoyage.org/)                                                           | Destinations, places to see, things to do, places to eat and drink, state introductions               | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)                             |
+| [Wikipedia](https://en.wikipedia.org/)                                                             | Dish descriptions and descriptions of notable attractions                                             | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)                             |
+| [Wikidata](https://www.wikidata.org/)                                                              | State facts, attraction types and coordinates, local-language names, hospitals, stations and airports | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)                               |
+| [Wikimedia Commons](https://commons.wikimedia.org/)                                                | Photographs                                                                                           | Per file. The author and license are stored with every image and shown wherever it appears. |
+| [Open-Meteo](https://open-meteo.com/)                                                              | Daily weather 2014–2023 (ERA5 reanalysis) used for the climate charts                                 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)                                   |
+| [OpenFreeMap](https://openfreemap.org/) / [OpenStreetMap](https://www.openstreetmap.org/copyright) | Map tiles shown in the app                                                                            | [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/)                                  |
+| Government of India portals                                                                        | National helpline numbers (`data/curated/india.json`)                                                 | Public information; each entry links to its official source                                 |
+
+Every generated entry records its source URL. Reusing `src/data/` means meeting the share-alike and attribution terms above. In practice, credit the sources and release adapted text under CC BY-SA 4.0.

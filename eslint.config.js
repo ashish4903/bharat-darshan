@@ -17,7 +17,7 @@ export default [
   },
   js.configs.recommended,
   {
-    files: ["**/*.{js,jsx}"],
+    files: ["**/*.{js,jsx,mjs}"],
     languageOptions: {
       ecmaVersion: "latest",
       sourceType: "module",
@@ -36,7 +36,7 @@ export default [
     },
   },
   {
-    files: ["**/*.test.{js,jsx}", "src/test/**"],
+    files: ["**/*.test.{js,jsx,mjs}", "src/test/**"],
     languageOptions: { globals: { ...globals.browser, ...globals.node, ...globals.vitest } },
   },
   {

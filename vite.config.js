@@ -7,6 +7,8 @@ const base = process.env.VITE_BASE ?? (process.env.GITHUB_ACTIONS === "true" ? "
 export default defineConfig({
   base,
   plugins: [react()],
+  // MapLibre (~300 kB gzipped) is loaded lazily, only when a map is shown.
+  build: { chunkSizeWarningLimit: 1200 },
   test: {
     environment: "jsdom",
     globals: true,
@@ -17,7 +19,17 @@ export default defineConfig({
       provider: "v8",
       reporter: ["text", "html", "lcov"],
       include: ["src/**/*.{js,jsx}", "scripts/lib/**/*.mjs"],
-      exclude: ["src/main.jsx", "src/test/**", "src/data/**", "**/*.test.{js,jsx,mjs}"],
+      // Network clients (sources, http) and the map canvas are exercised by the data build and the
+      // end-to-end tests rather than by unit tests.
+      exclude: [
+        "src/main.jsx",
+        "src/test/**",
+        "src/data/**",
+        "src/components/MapCanvas.jsx",
+        "scripts/lib/sources.mjs",
+        "scripts/lib/http.mjs",
+        "**/*.test.{js,jsx,mjs}",
+      ],
       thresholds: { lines: 80, functions: 80, branches: 70, statements: 80 },
     },
   },
