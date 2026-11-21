@@ -124,7 +124,14 @@ describe("listings", () => {
       section: "See",
       article: "Goa",
     });
-    expect(fort).toMatchObject({ type: "see", alt: null, lat: 15.49, image: null, url: null, wikidata: null });
+    expect(fort).toMatchObject({
+      type: "see",
+      alt: null,
+      lat: 15.49,
+      image: null,
+      url: null,
+      wikidata: null,
+    });
     expect(ritz).toMatchObject({
       type: "eat",
       section: "Eat",
